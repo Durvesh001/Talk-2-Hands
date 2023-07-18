@@ -5,20 +5,27 @@ To ensure the robustness and reliability of our solution, we meticulously curate
 
 Following are the steps followed for making this project - 
 1. 'data_collection.py' - code continuously tracks hands in video frames, extracts the hand region, and processes the hand images by resizing and pasting them onto a white background. The user can save the processed images into separate folders by pressing the corresponding keys on the keyboard. Following image is an example of how it is captured for data collection -
+   
 ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/62113e54-449e-4755-80f4-79fa7bf2697d)
 
-3. 'Liveaction.py' - code demonstrates real-time sign language recognition by capturing video frames, detecting hands, processing the hand region, and classifying the sign language gesture using a pre-trained model. The predicted label is then displayed on the screen, enabling communication accessibility for individuals using sign language. Following is the example of prediction by the model - 
+
+2. 'Liveaction.py' - code demonstrates real-time sign language recognition by capturing video frames, detecting hands, processing the hand region, and classifying the sign language gesture using a pre-trained model. The predicted label is then displayed on the screen, enabling communication accessibility for individuals using sign language. Following is the example of prediction by the model -
+
 ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/f8a0eb2b-a269-45a9-99f3-acdca8412dfc)
 
-5. 'accuracy.py' - code calculates the accuracy of the testing dataset.
+
+3. 'accuracy.py' - code calculates the accuracy of the testing dataset.
 Training Accuracy for our Model -
 ![WhatsApp Image 2023-07-18 at 12 44 53](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/8508590b-085e-42e6-9d7b-91f519b8f710)
+
 
 Testing Accuracy for our Model - 
 ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/d0f635f8-de3a-4ca8-8687-012e029a8be0)
 
+
 Following image shows sign along with its Prediction Accuracy - 
 ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/ff9ca519-c278-463d-ad05-1453cbe6ee5c)
+
 
 
 
