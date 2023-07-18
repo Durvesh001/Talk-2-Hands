@@ -15,6 +15,7 @@ Following are the steps followed for making this project -
 
 
 3. 'accuracy.py' - code calculates the accuracy of the testing dataset.
+
 Training Accuracy for our Model -
 ![WhatsApp Image 2023-07-18 at 12 44 53](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/8508590b-085e-42e6-9d7b-91f519b8f710)
 
