@@ -17,15 +17,15 @@ To ensure the robustness and reliability of our solution, we meticulously curate
 3. 'accuracy.py' - code calculates the accuracy of the training and testing dataset.
 
 ## Model Accuracy -
-1. Training Accuracy -
+- Training Accuracy -
 ![WhatsApp Image 2023-07-18 at 12 44 53](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/8508590b-085e-42e6-9d7b-91f519b8f710)
 
 
-2. Testing Accuracy - 
+- Testing Accuracy - 
 ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/d0f635f8-de3a-4ca8-8687-012e029a8be0)
 
 
-3. Following image shows sign along with its Prediction Accuracy - 
+- Following image shows sign along with its Prediction Accuracy - 
 ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/ff9ca519-c278-463d-ad05-1453cbe6ee5c)
 
 
