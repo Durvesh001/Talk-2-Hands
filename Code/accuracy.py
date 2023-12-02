@@ -9,7 +9,7 @@ accuracy = []
 accuracy_dic = {}
 
 for x in labels:
-    img_path = f"C:/Users/durve/OneDrive/Desktop/Major Project/Testing_Dataset/{x}"
+    img_path = f"C:/Users/durve/OneDrive/Desktop/Major Project/Training_Dataset/{x}"
     
     # Making list of all the images at the directory (variable - image_path)
     files = os.listdir(img_path) 

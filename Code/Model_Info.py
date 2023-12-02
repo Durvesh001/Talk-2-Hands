@@ -2,10 +2,10 @@ import json
 import h5py
 from tensorflow import keras as keras
 
-f = h5py.File('C:/Users/durve/OneDrive/Desktop/Mini Project/Model/keras_model.h5', 'r')
+f = h5py.File('C:/Users/durve/OneDrive/Desktop/Major Project/Application/Model/keras_model.h5', 'r')
 
 
-model = keras.models.load_model('C:/Users/durve/OneDrive/Desktop/Mini Project/Model/keras_model.h5')
+model = keras.models.load_model('C:/Users/durve/OneDrive/Desktop/Major Project/Application/Model/keras_model.h5')
 model.summary()
 
 
@@ -21,7 +21,7 @@ print(f'Number of inputs: {num_inputs}')
 
 
 
-with h5py.File('C:/Users/durve/OneDrive/Desktop/Mini Project/Model/keras_model.h5', 'r') as f:
+with h5py.File('C:/Users/durve/OneDrive/Desktop/Major Project/Application/Model/keras_model.h5', 'r') as f:
     model_config = f.attrs.get('model_config')
     if model_config is None:
         raise ValueError('No model found in h5 file.')
