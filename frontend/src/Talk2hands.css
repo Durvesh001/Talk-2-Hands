@@ -1,0 +1,26 @@
+/* Talk2hands.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inria+Sans:wght@700&family=Josefin+Sans:wght@700&family=Mulish:wght@600&family=Poppins:wght@500&family=Roboto&family=Tilt+Warp&display=swap');
+
+.body-prediction{
+    padding-top: 5px;
+}
+
+.videoElement {
+    display: flex;
+    place-content: center;
+    padding-top: 20px;
+}
+
+p.output-prediction{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+}

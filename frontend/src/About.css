@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inria+Sans:wght@700&family=Josefin+Sans:wght@700&family=Mulish:wght@600&family=Poppins:wght@500&family=Roboto&family=Tilt+Warp&display=swap');
+
+:root{
+    --red: #d01c28;
+    --gray: #2e2e2e;
+  }
+
+button{
+    all:unset;
+    font-family: 'Inria Sans', sans-serif;
+    padding: 6px 16px;
+    background: var(--red);
+    /* height: 30px; */
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+  h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    text-align: left;
+    margin: 0 0;
+
+  }
+
+  div.about{
+    text-align: left;
+    padding-left: 15vh;
+    padding-right: 20vh;
+    padding-top: 3vh;
+  }
+
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+  }
+
+  div.names{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.first{
+    text-align: center;
+  }
+
+  div.second{
+    text-align: center;
+  }
+
+  div.third{
+    text-align: center;
+  }
+
+  h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+
+.nav-link{
+    text-decoration: none;
+}
+
+.technical{
+    display: flex;
+    margin-top: 13px;
+    padding-bottom: 20px;
+}
+
+.paper-head{
+    padding-left: 50px;
+}
+
+div.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+div.exp{
+    padding-left: 10vh;
+}
+
+
+button.explore{
+    padding: 3px 16px;
+    border-radius: 20px;
+    font-size: 17px;
+}

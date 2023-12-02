@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inria+Sans:wght@700&family=Josefin+Sans:wght@700&family=Mulish:wght@600&family=Poppins:wght@500&family=Roboto&family=Tilt+Warp&display=swap');
+
+nav{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Adjust margin to create space between links and user icon */
+}
+
+li {
+  margin-left: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black; /* Set the color for the links */
+  font-size: 18px;
+  font-family: 'Inria Sans', sans-serif;
+}
+
+.nav-link:hover {
+  color: #d01c28; /* Change link color on hover */
+  text-decoration: none; /* Remove underline on hover */
+  font-family: 'Inria Sans', sans-serif;
+}
+
+.Logo{
+  padding-left: 15vh;
+}
+
+.logotext{
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: 'Inria Sans', sans-serif;  
+}
+
+.contents{
+  padding-left: 120vh;
+}
+
+
+.user-icon button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #d01c28;
+}
