@@ -18,13 +18,10 @@ Our project, 'TouchSign Bridge,' revolutionizes communication by translating Ind
 4. 'data_collection.py' - code continuously tracks hands in video frames, extracts the hand region, and processes the hand images by resizing and pasting them onto a white background. The user can save the processed images into separate folders by pressing the corresponding keys on the keyboard. Following image is an example of how it is captured for data collection -
 ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/62113e54-449e-4755-80f4-79fa7bf2697d)
 
-5. 'Liveaction.py' - code demonstrates real-time sign language recognition by capturing video frames, detecting hands, processing the hand region, and classifying the sign language gesture using a pre-trained model. The predicted label is then displayed on the screen, enabling communication accessibility for individuals using sign language. Following is the example of prediction by the model -
-![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/f8a0eb2b-a269-45a9-99f3-acdca8412dfc)
-
-6.  Sentence and audio formation -
+5.  Sentence and audio formation -  code demonstrates real-time sign language recognition by capturing video frames, detecting hands, processing the hand region, and classifying the sign language gesture using a pre-trained model. The predicted label is then displayed on the screen, enabling communication accessibility for individuals using sign language. This text is then converted to audio. Following is the example of prediction by the model -
    ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/af8d8729-586d-4d72-bec9-a59e0fe0311d)
 
-7. 'accuracy.py' - code calculates the accuracy of the training and testing dataset.
+6. 'accuracy.py' - code calculates the accuracy of the training and testing dataset.
    
 ## Model Accuracy -
 - Training Accuracy -
