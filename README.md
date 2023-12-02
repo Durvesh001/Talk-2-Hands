@@ -21,11 +21,10 @@ Our project, 'TouchSign Bridge,' revolutionizes communication by translating Ind
 5. 'Liveaction.py' - code demonstrates real-time sign language recognition by capturing video frames, detecting hands, processing the hand region, and classifying the sign language gesture using a pre-trained model. The predicted label is then displayed on the screen, enabling communication accessibility for individuals using sign language. Following is the example of prediction by the model -
 ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/f8a0eb2b-a269-45a9-99f3-acdca8412dfc)
 
-6. 'accuracy.py' - code calculates the accuracy of the training and testing dataset.
-   
-8. Sentence and audio formation -
-   ![Uploading image.png…]()
+6.  Sentence and audio formation -
+   ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/af8d8729-586d-4d72-bec9-a59e0fe0311d)
 
+7. 'accuracy.py' - code calculates the accuracy of the training and testing dataset.
    
 ## Model Accuracy -
 - Training Accuracy -
