@@ -23,6 +23,10 @@ Our project, 'TouchSign Bridge,' revolutionizes communication by translating Ind
 
 6. 'accuracy.py' - code calculates the accuracy of the training and testing dataset.
    
+8. Sentence and audio formation -
+   ![Uploading image.png…]()
+
+   
 ## Model Accuracy -
 - Training Accuracy -
 ![WhatsApp Image 2023-07-18 at 12 44 53](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/8508590b-085e-42e6-9d7b-91f519b8f710)
