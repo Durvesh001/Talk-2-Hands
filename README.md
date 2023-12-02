@@ -39,4 +39,4 @@ Our project, 'TouchSign Bridge,' revolutionizes communication by translating Ind
 
 
 
-The project enables the conversion of Indian Sign Language to text using machine learning techniques. Trained the model with an extensive dataset of approximately 21,000 images, resulting in an impressive testing accuracy of 80% and a training accuracy of 97%. Demonstrated the potential for accurate and efficient translation of sign language to enhance communication accessibility.
+The project enables the conversion of Indian Sign Language to text, audio and braille using machine learning techniques. Trained the model with an extensive dataset of approximately 21,000 images, resulting in an impressive testing accuracy of 80% and a training accuracy of 97%. Demonstrated the potential for accurate and efficient translation of sign language to enhance communication accessibility.
