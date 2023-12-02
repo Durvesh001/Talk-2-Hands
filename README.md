@@ -9,16 +9,16 @@ Our project, 'TouchSign Bridge,' revolutionizes communication by translating Ind
 1. Frontend built using ReactJs -
    ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/96a95b80-1de7-4f2f-8494-c90fde1b0e41)
 
-2. Text-2-Speech -
+2. Text-2-Speech in frontend -
    ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/d78a5010-3ba4-43aa-88c5-8ddec625e1a4)
 
-3.  Text-2-Braille -
+3.  Text-2-Braille in frontend -
    ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/b6053184-2a66-4c7b-b3de-d511b83337e8)
 
 4. 'data_collection.py' - code continuously tracks hands in video frames, extracts the hand region, and processes the hand images by resizing and pasting them onto a white background. The user can save the processed images into separate folders by pressing the corresponding keys on the keyboard. Following image is an example of how it is captured for data collection -
 ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/62113e54-449e-4755-80f4-79fa7bf2697d)
 
-5.  Sentence and audio formation -  code demonstrates real-time sign language recognition by capturing video frames, detecting hands, processing the hand region, and classifying the sign language gesture using a pre-trained model. The predicted label is then displayed on the screen, enabling communication accessibility for individuals using sign language. This text is then converted to audio. Following is the example of prediction by the model -
+5.  TouchSignBridge.py (Sentence and audio formation) -  code demonstrates real-time sign language recognition by capturing video frames, detecting hands, processing the hand region, and classifying the sign language gesture using a pre-trained model. The predicted label is then displayed on the screen, enabling communication accessibility for individuals using sign language. This text is then converted to audio. Following is the example of prediction by the model -
    ![image](https://github.com/Durvesh001/Talk-2-Hands/assets/75305014/af8d8729-586d-4d72-bec9-a59e0fe0311d)
 
 6. 'accuracy.py' - code calculates the accuracy of the training and testing dataset.
