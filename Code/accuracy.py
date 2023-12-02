@@ -4,6 +4,8 @@ import cv2
 import os
 
 labels = ['0','1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F','Evening', 'G', 'H','Good', 'I', 'Hello','How are you','J', 'K', 'L', 'M', 'N','Morning', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+# Add your model's and label's location respectively.
 classifier = Classifier("C:/Users/durve/OneDrive/Desktop/Major Project/Application/Model/keras_model.h5", "C:/Users/durve/OneDrive/Desktop/Major Project/Application/Model/labels.txt")
 accuracy = []
 accuracy_dic = {}

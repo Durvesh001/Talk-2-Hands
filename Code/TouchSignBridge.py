@@ -245,6 +245,8 @@ def preProcess(hands, img):
 
 cap = cv2.VideoCapture(0)
 detector = HandDetector(maxHands=2)
+
+# Add your model's and label's location respectively.
 classifier = Classifier("C:/Users/durve/OneDrive/Desktop/Major Project/Application/Model/keras_model.h5", "C:/Users/durve/OneDrive/Desktop/Major Project/Application/Model/labels.txt")
 bg_size = 300  # Fixed size of the white background
 offset = 20

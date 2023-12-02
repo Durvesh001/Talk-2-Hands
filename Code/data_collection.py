@@ -87,6 +87,8 @@ while True:
 
     # Press escape key for quitting
     # The function waitkey will wait for 1 milisecond to take input from keyboard
+
+    # add location where to store the captured dataset.
     folder_path = "C:/Users/durve/OneDrive/Desktop/Major Project/Training_Dataset"
     key = cv2.waitKey(1)
     if key >= ord('a') and key <= ord('z') or key >= ord('A') and key <= ord('Z') or key >= ord('1') and key <= ord('9'):
