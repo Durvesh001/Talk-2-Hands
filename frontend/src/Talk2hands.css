@@ -24,3 +24,31 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-size: 45px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-y: hidden;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .videoElement {
+        max-width: 100%; 
+        height: auto; 
+        overflow-x: hidden;
+    }
+}
+
+
+@media only screen and (max-height: 700px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .videoElement{
+        padding-top: 0px;
+    }
+}

@@ -38,13 +38,8 @@ const Navbar = () => {
                 About
               </Link>
             </li>
-          </ul>
-        </div>
-
-        <div className="user-icon">
-          <ul>
             <li>
-              <Link to="/" onClick={stopCamera}>
+            <Link to="/" className="user-icon" onClick={stopCamera}>
                 <button>
                   <i className="fas fa-user" />
                 </button>
@@ -52,42 +47,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </nav>
+        </nav>
     </div>
 
-    // <div className="Nav">
-    //   <nav>
-    //     <div className="Logo">
-    //       <img src="/images/final_logo.jpeg" alt="Logo" />
-    //       <div className="logotext">TouchSign Bridge</div>
-    //     </div>
-
-    //     <div className="contents">
-    //       <ul>
-    //         <li>
-    //           <Link to="/" className="nav-link" onClick={stopCamera}>
-    //             Home
-    //           </Link>
-    //         </li>
-    //         <li>
-    //           <Link to="/about" className="nav-link" onClick={stopCamera}>
-    //             About
-    //           </Link>
-    //         </li>
-    //       </ul>
-    //     </div>
-
-    //     <ul className="user-icon">
-    //       <li>
-    //         <Link to="/" onClick={stopCamera}>
-    //           <button>
-    //             <i className="fas fa-user" />
-    //           </button>
-    //         </Link>
-    //       </li>
-    //     </ul>
-    //   </nav>
-    // </div>
   );
 };
 

@@ -20,7 +20,7 @@ const About = () => {
                 <div className="about-head">
                     <div className="container">
                         <div className="but">
-                            <h1>About</h1>
+                            <h1 className='aboutsec'>About</h1>
                         </div>
 
                         <div className="exp">
@@ -60,19 +60,19 @@ const About = () => {
                 </div>
                 <div className="names">
                     <div className="first">
-                        <p><strong>Durvesh Chaudhari</strong> <br />
+                        <p className='mention'><strong>Durvesh Chaudhari</strong> <br />
                             Electronics Enginnering <br />
                             Sardar Patel Institute of Technology<br />
                             2020100006</p>
                     </div>
                     <div className="second">
-                        <p><strong>Adrika Dikshit</strong><br />
+                        <p className='mention'><strong>Adrika Dikshit</strong><br />
                             Electronics Enginnering <br />
                             Sardar Patel Institute of Technology<br />
                             2020100012</p>
                     </div>
                     <div className="third">
-                        <p><strong>Jay Kolte</strong><br />
+                        <p className='mention'><strong>Jay Kolte</strong><br />
                             Electronics Enginnering <br />
                             Sardar Patel Institute of Technology<br />
                             2020100034</p>

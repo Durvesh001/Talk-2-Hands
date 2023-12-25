@@ -46,3 +46,50 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
+
+
+@media only screen and (max-width: 600px) {
+  /* Apply to the body or a container element */
+.Body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; 
+  /* Take up full viewport height */
+  overflow: hidden; /* Disable both vertical and horizontal scroll */
+  margin: 0; /* Remove default margins */
+}
+
+  .connect {
+    flex-direction: column; /* Change from row to column layout */
+    align-items: center; /* Align items in the center */
+  }
+
+  .sec-1,
+  .sec-2 {
+    align-items: center;
+    padding-bottom: 0;
+  }
+
+  .sec-1 img,
+  .sec-2 img {
+    width: 100%; /* Image takes full width of its container */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 50%; /* Keep the border-radius if needed */
+    margin-bottom: 10px; /* Add spacing between images */
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 600px){
+  .connect {
+    /* display: flex;
+    justify-content: space-between;
+    overflow-x: auto;  */
+    /* Enable horizontal scrolling */
+    /* padding: 0 20px; Add padding for space between sections and edges */
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+}

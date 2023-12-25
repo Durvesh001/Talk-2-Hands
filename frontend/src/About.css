@@ -18,7 +18,7 @@ button{
     border-radius: 20px;
   }
 
-  h1{
+  h1.aboutsec{
     font-family: 'Poppins', sans-serif;
     font-size: 38px;
     text-align: left;
@@ -26,12 +26,20 @@ button{
 
   }
 
-  div.about{
+  /* div.about{
     text-align: left;
     padding-left: 15vh;
     padding-right: 20vh;
     padding-top: 3vh;
+  } */
+
+  div.about{
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
   }
+
 
   p{
     font-family: 'Roboto', sans-serif;
@@ -49,6 +57,8 @@ button{
 
   div.second{
     text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
   }
 
   div.third{
@@ -91,4 +101,26 @@ button.explore{
     padding: 3px 16px;
     border-radius: 20px;
     font-size: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+  div.about {
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    overflow-x: auto; /* or overflow-x: scroll; */
+  }
+
+  div.about {
+    /* Your existing styles */
+    overflow-y: auto; /* Allow vertical scrolling when needed */
+    max-height: 90vh; 
+}
+
+p.mention{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
 }

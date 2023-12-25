@@ -52,3 +52,17 @@ h3{
 h3.textout{
   margin-bottom: 0px;
 }
+
+@media only screen and (max-width: 600px) {
+  textarea {
+    width: 300px;
+    height: 150px; /*Increase the height to allow more space for text*/
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px; /* Increase the font size */
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    resize: none; /* Allow vertical resizing only */
+  }
+}

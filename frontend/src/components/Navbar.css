@@ -2,7 +2,7 @@
 
 nav{
   display: flex;
-  /* justify-content: center; */
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -40,9 +40,9 @@ li {
   font-family: 'Inria Sans', sans-serif;  
 }
 
-.contents{
+/* .contents{
   padding-left: 120vh;
-}
+} */
 
 
 .user-icon button {
@@ -51,4 +51,34 @@ li {
   padding: 0;
   cursor: pointer;
   color: #d01c28;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .Logo{
+    padding-left: 2px;
+  }
+
+  .logotext{
+    font-size: 15px;  
+  }
+
+  .contents{
+    padding-right: 2px;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: black; /* Set the color for the links */
+    font-size: 12px;
+    font-family: 'Inria Sans', sans-serif;
+  }
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .Logo{
+    padding-left: 2%;
+  }
 }
